@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 
+    background:black ;
+    */
+}
+
+
+header {
+    width: 95%;
+    height: 100px;
+   /*    border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /*  background: black; */
+}
+
+header .box1 {
+    width: 10%;
+    height: 80px;
+    /*  border:1px solid; */
+}
+
+header .box1 img {
+    width: 100%;
+    height: 80px;
+    border-radius: 50%;
+}
+
+header .box2 {
+    width: 40%;
+    height: 80px;
+    /* border:1px solid; */
+}
+
+.box2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box2 ul li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.box2 ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(199, 42, 28);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid red;
+
+}
+
+
+header .box3 {
+    width: 15%;
+    height: 80px;
+    /* border:1px solid; */
+}
+
+
+.box3 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box3 ul li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.box3 ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(199, 42, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid red;
+
+}
+
+/* ----------------------------------------------------------------------- */
+
+#home {
+    width: 80%;
+    height: 600px;
+    /* background: red; */
+    margin: auto;
+    padding: 5px;
+    background: url(./image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#home .content-box {
+    width: 35%;
+    height: 400px;
+    /*  border: 1px solid; */
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    top: 5%;
+    left: 10%;
+
+}
+
+#home .content-box h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+    /* border: 2px solid; */
+    color: red;
+    padding: 10px;
+
+}
+
+#home .content-box p {
+    font-size: 18px;
+    color: black;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: inherit;
+
+}
+
+.an {
+    /* border: 2px solid; */
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(139, 217, 217);
+    font: 18px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    /* font-size: 18px; */
+    transition: 1s;
+    /*  width: ; */
+
+}
+
+/* -------------------------home end--------------------- */
+#About {
+    width: 80%;
+    padding: 5px;
+    height: 600px;
+    margin: auto;
+    /*  background-color:navajowhite; */
+    /* text-align: center; */
+    background: linear-gradient(to top, gold 5%, white 200%);
+}
+
+#About h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+
+}
+
+/* ---------------------------------------------------------------------- */
+#About .big-box {
+    width: 90%;
+    /* background: red; */
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#About .big-box .box {
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    /* background: skyblue; */
+    /*   margin: auto; */
+    padding: 10px;
+    border: 1px solid grey;
+
+
+}
+
+#About .big-box .box img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#About .big-box .box h2 {
+    font: size 24px;
+    padding: 10px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#About .big-box .box p {
+    font: size 18px;
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
